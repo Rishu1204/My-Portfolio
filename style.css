@@ -1,0 +1,675 @@
+
+#navbar {
+    display: flex;
+    border: 2px solid red;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#navbar ul li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+
+}
+
+#First::before {
+    margin-top: -105px;
+    margin-left: -7px;
+    content: "";
+    background: url(cover.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    color: white;
+    text-align: right;
+    justify-content: center;
+    padding: 30px 30px;
+    font-size: 2.3rem;
+
+}
+
+#navbar ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+.hi {
+
+    margin: 240px 333px;
+    padding: 33px 334px;
+
+}
+
+.hi h1 {
+    font-size: 100px;
+
+}
+
+.para {
+
+    margin: -117px 11px;
+    font-size: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.para1 {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 12px;
+}
+
+#Logo1 {
+    display: flex;
+    flex-direction: column;
+    margin: -543px 34px;
+    padding: 43px 495px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#Logo2 {
+    margin: 482px 34px;
+    padding: 43px 493px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#Logo3 {
+    display: flex;
+    flex-direction: column;
+    margin: -545px 34px;
+    padding: 43px 495px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#Logo4 a {
+    display: inline-flex;
+    border-radius: 24px;
+    margin: 448px 669px;
+    padding: 2px 4px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+#Logo4 :hover {
+    color: white;
+    background-color: rgb(10, 230, 238);
+    cursor: pointer;
+}
+
+#Logo2 a :hover {
+    color: white;
+    background-color: rgb(10, 230, 238);
+    cursor: pointer;
+}
+
+/* #Logo1 a :hover {
+    color: white;
+    background-color: rgb(10, 230, 238);
+    cursor: pointer;
+} */
+#Logo3 a :hover {
+    color: white;
+    background-color: rgb(10, 230, 238);
+    cursor: pointer;
+}
+
+.me {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+
+}
+
+.my {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: -159px 34px;
+    padding: 23px 34px;
+}
+
+.new {
+
+    margin: 210px 1351px;
+    padding: 2px 8px;
+    width: 558px;
+    font-size: 34px;
+    color: rgb(114, 100, 100);
+}
+
+.image {
+    margin: -431px 475px;
+    padding: 23px 34px;
+}
+
+.cycle1 {
+    margin: -769px 1361px;
+    padding: 34px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 60px;
+}
+
+.cycle2 {
+    margin: 716px 1359px;
+    padding: 34px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 25px;
+}
+
+.cycle3 {
+    margin: -894px 1552px;
+    padding: 34px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 60px;
+}
+
+.cycle4 {
+    margin: 821px 1552px;
+    padding: 34px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 20px;
+}
+
+.cycle5 {
+    margin: -1013px 1750px;
+    padding: 34px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 60px;
+}
+
+.cycle6 {
+    margin: 956px 1751px;
+    padding: 34px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 20px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    margin: -961px 1293px;
+    padding: 34px 32px;
+}
+
+#button a {
+    border-radius: 24px;
+
+    padding: 2px 4px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+#button :hover {
+    color: white;
+    background-color: rgb(10, 230, 238);
+    cursor: pointer;
+}
+
+#ille {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1486px 997px;
+    padding: 50px 84px;
+    font-size: 23px;
+    width: 336px;
+    height: 20px;
+}
+
+
+#ill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1459px 34px;
+    padding: 34px 23px;
+    font-size: 87px;
+
+}
+
+
+.container {
+    margin: -1449px 148px;
+    width: 33%;
+    /* height: 100%; */
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+}
+
+.skillset h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 36px;
+}
+
+.progress-bar {
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: red
+}
+
+.progress-bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: black;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    animation: html 1s linear forwards;
+}
+
+.css {
+    animation: css 1s linear forwards;
+}
+
+.python {
+    animation: python 1s linear forwards;
+}
+
+.javascript {
+    animation: javascript 1s linear forwards;
+}
+
+.react {
+    animation: react 1s linear forwards;
+}
+
+.html span {
+    border: 1px solid #e91e63;
+
+}
+
+.css span {
+    border: 1px solid #e91e63;
+
+}
+
+.javascript span {
+    border: 1px solid #e91e63;
+
+}
+
+
+
+.react span {
+    border: 1px solid #e91e63;
+
+}
+
+@keyframes html {
+    100% {
+        width: 86%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 94%;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        width: 86%;
+    }
+}
+
+@keyframes react {
+    100% {
+        width: 66%;
+    }
+}
+
+
+
+.one {
+    margin: 1550px 399px;
+    padding: 23px 34px;
+    display: flex;
+    font-size: 34px;
+}
+
+.ones {
+    margin: 31px 990px;
+    padding: 23px 34px;
+    display: flex;
+    font-size: 49px;
+}
+
+.cont 
+{
+    margin: 1049px 1488px;
+    width: 32%;
+    height: 100%;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.set h2
+{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 36px;
+}
+.bar
+{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+
+}
+
+.bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+    background: red;
+}
+
+.bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: black;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.python {
+    background: #e91e63;
+    animation: python 1s linear forwards;
+}
+.dataanalyst
+{
+    background: #e91e63;
+    animation: dataanalyst 1s linear forwards;
+}
+.imageprocessing
+{
+    background: #e91e63;
+    animation: imageprocessing 1s linear forwards;
+}
+.rawdata
+{   
+    background: #e91e63;
+    animation: rawdata 1s linear forwards;
+}
+
+.python span
+{
+    border: 1px solid #e91e63;
+}
+.dataanalyst span
+{
+    border: 1px solid #e91e63;
+}
+.imageprocessing span
+{
+    border: 1px solid #e91e63;
+}
+.rawdata span
+{
+    border: 1px solid #e91e63;
+}
+@keyframes python
+{
+    100%{
+        width: 86%;
+    }
+}
+@keyframes dataanalyst
+{
+    100%{
+        width: 76%;
+    }
+}
+@keyframes imageprocessing
+{
+    100%{
+        width: 89%;
+    }
+}
+@keyframes rawdata
+{
+    100%{
+        width: 96%;
+    }
+}
+#journ
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 768px 34px;
+    padding: 34px 23px;
+    font-size: 38px;
+
+}
+#qualify
+{
+    display: block;
+    margin: -753px 984px;
+    padding: 34px 23px;
+    font-size: 87px;
+}
+#paragr
+{
+    display: block;
+    margin: -738px 904px;
+    padding: 34px 23px;
+    font-size: 40px;
+}
+.line
+{
+    display: flex;
+    margin: 726px 1166px;
+    font-size:15px;
+}
+#tenth
+{   
+    display: block;
+    margin: 1250px 970px;
+    padding: 23px 33px;
+    font-size: 20px;
+
+    
+}
+#num
+{
+    margin: -1261px 999px;
+    font-size:35px;
+
+}
+#twelth
+{   
+    display: flex;
+    margin: 1214px 1222px;
+    padding: 23px 33px;
+    font-size: 21px;
+    width: 243px;
+    
+}
+
+#nume
+{
+    margin: -1230px 1253px;
+    font-size:36px;
+
+}
+#college
+{
+    display: flex;
+    margin: -1244px 964px;
+    padding: 23px 33px;
+    font-size: 20px;
+    width: 243px;
+    font-size:36px;
+}
+#coll
+{
+    display: flex;
+    margin: 1216px 998px;
+    font-size:20px;
+}
+.head
+{
+    margin: -944px 34px;
+    font-size: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#mode
+{
+    margin: 957px 34px;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#call
+{
+    margin:725px 701px;
+    font-size: 39px;
+    display: flex;
+    
+
+}
+.iimg 
+{
+    margin: -775px 616px;
+    
+}
+#email
+{
+    margin: -797px 701px;
+    font-size: 39px;
+    display: flex;
+    
+
+}
+.iimmg 
+{
+    margin: 748px 616px;
+    
+}
+
+#number
+{
+    margin: -713px 704px;
+    font-size: 23px;
+}
+
+#emails
+{
+    margin: 808px 706px;
+    font-size: 23px;
+}
+.iimmgg 
+{
+      margin: -781px 616px;
+    
+}
+
+#loc
+{
+    margin: 735px 704px;
+    font-size: 39px;
+}
+
+#loca
+{
+    margin: -728px 706px;
+    font-size: 23px;
+}
